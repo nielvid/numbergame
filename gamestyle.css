@@ -1,0 +1,69 @@
+
+        body{
+            font-family: 'Raleway', sans-serif;
+            margin: 0;
+        }
+        
+        .wrapper{
+            width: 75%;
+            margin-top: 8%;
+           margin-left: 13%;
+            text-align: center;
+    
+        }
+      
+        span{
+            font-size: 25px;
+            padding: 20px;
+            /*border: solid 2px black;*/
+            color: white;
+            
+            margin-bottom: 25PX;
+        }
+        button{
+            margin-top: 40px;
+            width: 150px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            background: rgb(28, 28, 56);
+            color: white;
+            font-size: 18px;
+            border-radius: 15px;
+            border: none;
+        }
+    button:link{
+        border: none;
+        box-shadow: 12px;
+    }
+        input[type=text]{
+            font-size: 25px;
+             border: solid 2px rgb(29, 2, 2);
+             border-radius: 15px;
+             box-shadow: white;
+             text-align: center;
+        }
+
+        h2{
+            color: rgb(28, 28, 56);
+        }
+   h4{
+       text-decoration: underline;
+   }
+   footer{
+    position: fixed;
+    bottom: 0;
+    background-color:  rgb(116, 116, 119);
+    width: 100%;
+    margin: 0;
+    height: 70px;
+   }
+   footer p{
+    
+  word-spacing: 0.3em;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+   }
+   footer p a:link{
+       color: white;
+   }
